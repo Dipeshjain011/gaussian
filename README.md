@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Gaussian Blur Removal Using Frequency Domain Restoration
 
 A native PySide6 desktop application for demonstrating Gaussian degradation and image restoration with traditional Digital Image Processing techniques. It supports controlled experiments with a known original image and restoration of real blurred images without claiming unavailable ground-truth metrics.
@@ -68,3 +69,6 @@ GUI code is in `app/`; algorithms are in `image_processing/`; metric logic is in
 - Reference-based MSE, PSNR, and SSIM use the reference image's expected intensity range and evaluate clipped values that can be displayed/exported. The raw floating-point restoration remains unchanged.
 - The noise-only Wiener function documents that its noise variance must use the same squared intensity scale as the image and uses a periodogram normalization whose expected white-noise level equals that variance.
 - Algorithm tests include OTF DC normalization, finite blur output, metric clipping consistency, and the zero-noise identity case.
+=======
+# gaussian
+>>>>>>> b4eb811a2fbc57d10a6b9aefc4eb9a5cbedd9c7c
